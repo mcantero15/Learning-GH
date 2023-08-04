@@ -11,6 +11,8 @@ struct ContentView: View {
     var body: some View {
         VStack {
             Image(systemName: "figure.wave")
+                .resizable()
+                .frame(width: 200, height: 150,alignment: .center)
             Text("What's up, CodeCrew!")
         }
         .padding()
